@@ -1,0 +1,235 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 0.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 2rem;
+    background: url('assets/background.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+section {
+    padding: 2rem 1.5rem;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.gallery {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video-item {
+    width: 300px;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+}
+
+button {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #000;
+    color: #fff;
+}
+
+/*footer */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-icons {
+    margin-top: 10px;
+}
+
+.contact-icons .icon {
+    color: white;
+    font-size: 24px;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.contact-icons .icon:hover {
+    color: #f39c12;
+}
+
+/* image items*/
+
+/* Slider Container */
+.slider-container {
+    position: relative;
+    max-width: 100%; /* Full width */
+    height: 500px; /* Adjust as needed */
+    overflow: hidden;
+}
+
+/* Slides Wrapper */
+.slides {
+    
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Smooth slide transition */
+}
+
+/* Individual Slide Images */
+.slides img {
+    width: 50%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    object-fit: cover; /* Crop the image to fit nicely */
+}
+
+/* Keyframes for Sliding */
+@keyframes slide {
+    0% { transform: translateX(0); } /* First slide */
+    33% { transform: translateX(-100%); } /* Second slide */
+    100% { transform: translateX(0); } /* Back to first slide */
+}
+
+
+
+
+
+
+
+
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the main container */
+.div1 {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Title styling */
+.div2 h1 {
+    font-size: 36px;
+    color: #4b2d3e;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Styling for the content section */
+.div3 p {
+    font-size: 18px;
+    color: #6c757d;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+/* Strong text for headings inside paragraphs */
+.div3 p strong {
+    color: #4b2d3e;
+    font-weight: bold;
+}
+
+/* Hover effect for paragraphs */
+.div3 p:hover {
+    background-color: #f1f1f1;
+    border-left: 5px solid #4b2d3e;
+    padding-left: 10px;
+    transition: background-color 0.3s ease, border-left 0.3s ease;
+}
+
+/* Add spacing between the paragraphs */
+.div3 p {
+    margin-bottom: 20px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .div1 {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .div2 h1 {
+        font-size: 28px;
+    }
+
+    .div3 p {
+        font-size: 16px;
+    }
+}
+
+
